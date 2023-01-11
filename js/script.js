@@ -1,7 +1,7 @@
 console.log('Привіт')
 
 // Start Animation
-const startAnimation = document.querySelector('#start-site')
+const startAnimation = document.querySelector('.start-site')
 
 // Catalog
 const catalog = document.querySelector('#catalog')
