@@ -1,0 +1,83 @@
+/* Це загальні стилі для всіх сторінок. Задній фон та шапка */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Invisible */
+.invisible {
+    transition: all 0.3s ease;
+    display: none;
+}
+
+body {
+    background-color: rgb(201, 255, 140);
+    width: 1360px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 1360px;
+    padding: 10px 0px;
+    background-color: rgb(34, 31, 31);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+header div a {
+    align-items: center;
+    display: flex;
+}
+    /* logo */
+header img {
+    margin: auto;
+    padding: 3px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 45px;
+}
+
+header div p {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+    margin-left: 12px;
+}
+   /* catalog and about us */
+header .headerMenu {
+    margin: auto 12px;
+    padding: 8px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+header .headerMenu:hover, nav ul li:hover {
+    color: aliceblue;
+    background-color: #776c6c;
+    box-shadow: 1px 5px 10px -1px #fff;
+    transition: all 0.3s ease;
+}
+
+    /* hidden menu */
+nav {
+    position: fixed;
+    margin: 70.8px 12px 0px;
+}
+
+nav ul li {
+    padding: 10px;
+    background-color: aliceblue;
+    list-style-type: none;
+}
+
+nav ul br {
+    border-color: gray;
+}
